@@ -19,11 +19,20 @@ $white: white;
 // You can import your own Google font here!
 // fonts
 // @include @font-face(LeagueGothic, ../fonts/LeagueGothic/LeagueGothic-Regular);
+// @font-face {
+//   font-family: "LeagueGothic";
+//   src: url("../fonts/League-Gothic/LeagueGothic-Regular.otf");
+// }
+// @import url('https://fonts.googleapis.com/css?family=Lato');
+
 @font-face {
-  font-family: "LeagueGothic";
-  src: url("../fonts/League-Gothic/LeagueGothic-Regular.otf");
+  font-family: "Nexa";
+  src: url("../fonts/nexa/Nexa Light.otf");
 }
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: "SanFrancisco";
+  src: url("../fonts/san-francisco/SanFranciscoText-Regular.otf");
+}
 
 body {
   padding-top: 50px;
@@ -34,7 +43,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: LeagueGothic !important;
+  font-family: Nexa !important;
   font-size: 32px;
 }
 

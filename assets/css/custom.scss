@@ -1,0 +1,95 @@
+---
+---
+
+
+// Jekyll auto-compiles this to css
+
+/**
+ * VARIABLES
+ * You need to update the config.json too (that's used for Bootstrap styling).
+ */
+$primary: #33B5E5;
+$white: white;
+
+
+/**
+ * DECLARATIONS
+ */
+
+// You can import your own Google font here!
+// fonts
+// @include @font-face(LeagueGothic, ../fonts/LeagueGothic/LeagueGothic-Regular);
+@font-face {
+  font-family: "LeagueGothic";
+  src: url("../fonts/League-Gothic/LeagueGothic-Regular.otf");
+}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+  text-transform: uppercase !important;
+}
+
+.navbar-brand {
+  font-family: LeagueGothic !important;
+  font-size: 32px;
+}
+
+.centered {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+.section {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.section-primary {
+  color: $white !important;
+  background: $primary;
+
+  a {
+    color: $white !important;
+    text-decoration: underline;
+  }
+}
+
+.section-super-padded {
+  padding-top: 5em;
+  padding-bottom: 6em;
+}
+
+.link-white {
+  color: $white;
+
+  &:hover {
+    color: darken($white, 15%);
+    // color: mix($white, $primary, 75%);
+  }
+}
+
+.text-white {
+  color: white;
+}
+
+.book-shadow {
+    border: 1px solid #ccc;
+
+  // shadowing
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}

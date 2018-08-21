@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    {% if page.title %}{{ page.title }} |{% endif %}
+    {{ site.name }}
+  </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta property="og:title" content="{{ site.name }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.deployed_url }}" />
+  <meta property="og:image" content="{{ site.baseurl }}{{ site.preview_image }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]
+    <link rel="stylesheet" href="assets/css/main.css" />
+    [if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/bootstrap/css/bootstrap.min.css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+
+
+  <!-- custom css. we actually store it as SCSS, but it is auto-compiled to CSS. -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png">
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stu-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.name }}</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="stu-navbar">
+        <form class="navbar-form navbar-right">
+          <a href="http://hathix.com" class="btn btn-default">Call to Action</a>
+        </form>
+
+        <ul class="nav navbar-nav navbar-right">
+          {% for page in site.data.pages %}
+            <li>
+              <a href="{{ site.baseurl }}{{ page.url }}">
+                {{ page.name}}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+  </div>

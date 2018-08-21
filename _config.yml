@@ -19,10 +19,10 @@
 ##### Config for this example site. Please change!! #####
 
 # The name of your website
-name: Example Static Site
+name: Tech Transparency
 # A brief description, e.g. for Google search results
 description: |
-  An awesome website!
+  A tech nonprofit.
 # Where your website lives. In YAML (the language this file uses), if any of
 # your values include a colon, you must put the value in quotes.
 deployed_url: "http://hathix.com"

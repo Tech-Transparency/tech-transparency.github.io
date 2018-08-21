@@ -92,3 +92,9 @@ h6 {
 h2 {
   text-align: center;
 }
+
+hr.mini-divider {
+  width: 5em;
+  text-align: center;
+  border: 2px solid $primary;
+}

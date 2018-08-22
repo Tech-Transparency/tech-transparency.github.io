@@ -10,6 +10,7 @@
  */
 $primary: #33B5E5;
 $white: white;
+$dark: black;
 
 
 /**
@@ -73,11 +74,18 @@ h6 {
 .section-primary {
   color: $white !important;
   background: $primary;
+}
 
-  a {
-    color: $white !important;
-    text-decoration: underline;
-  }
+.section-dark {
+  color: $white !important;
+  background: $dark;
+}
+
+.section-primary, .section-dark {
+    a {
+      color: $white !important;
+      text-decoration: underline;
+    }
 }
 
 .section-super-padded {

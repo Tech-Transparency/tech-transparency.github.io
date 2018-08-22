@@ -9,26 +9,58 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <h2>Choosing a Role</h2>
-    <hr class="mini-divider" />
+    <div class="section">
+      <h2>1. Choosing a Role</h2>
+      <hr class="mini-divider" />
 
+      <div class="container">
+        <div class="row">
+          {% for role in site.data.roles %}
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ role.image }}" alt="{{ role.name }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ role.name }}</h5>
+                <p class="card-text">
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
 
+    <div class="section">
+      <h2>2. Choosing a Company</h2>
+      <hr class="mini-divider" />
 
-    <div class="container">
-      <div class="row">
-        {% for role in site.data.roles %}
-        <div class="col-sm">
-          <div class="card">
-            <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ role.image }}" alt="{{ role.name }}">
-            <div class="card-body">
-              <h5 class="card-title">{{ role.name }}</h5>
-              <p class="card-text">
-              </p>
-              <a href="#" class="btn btn-primary">Read More</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/job-list.jpg" alt="Job List">
+              <div class="card-body">
+                <h5 class="card-title">Job List</h5>
+                <p class="card-text">
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/explore-companies.jpg" alt="Explore Companies">
+              <div class="card-body">
+                <h5 class="card-title">Explore Companies</h5>
+                <p class="card-text">
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
             </div>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
   </div>

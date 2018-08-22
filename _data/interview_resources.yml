@@ -1,0 +1,8 @@
+- name: Resume
+  image: resume.jpg
+- name: Cover Letter
+  image: cover-letter.jpg
+- name: Networking
+  image: networking.jpg
+- name: LinkedIn
+  image: linkedin.jpg

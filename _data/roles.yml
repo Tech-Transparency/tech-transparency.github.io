@@ -2,7 +2,7 @@
   image: product-management.jpg
 - name: Marketing
   image: marketing.jpg
-- name: Product management
-  image: product-management.jpg
-- name: Product management
-  image: product-management.jpg
+- name: Sales
+  image: sales.jpg
+- name: Business Development
+  image: business-development.jpg

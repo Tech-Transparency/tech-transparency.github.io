@@ -1,0 +1,17 @@
+<!--
+  Pass an object called `resource`, which has these fields:
+    image
+    name
+    
+-->
+<div class="col-3">
+  <div class="card">
+    <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ resource.image }}" alt="{{ resource.name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ resource.name }}</h5>
+      <p class="card-text">
+      </p>
+      <a href="#" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+</div>

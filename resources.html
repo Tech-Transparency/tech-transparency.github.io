@@ -14,19 +14,9 @@ layout: default
       <hr class="mini-divider" />
 
       <div class="container">
-        <div class="row">
-          {% for role in site.data.roles %}
-          <div class="col-sm">
-            <div class="card">
-              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ role.image }}" alt="{{ role.name }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ role.name }}</h5>
-                <p class="card-text">
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
+        <div class="row justify-content-center">
+          {% for resource in site.data.roles %}
+            {% include resource_card.html %}
           {% endfor %}
         </div>
       </div>
@@ -37,29 +27,10 @@ layout: default
       <hr class="mini-divider" />
 
       <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <div class="card">
-              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/job-list.jpg" alt="Job List">
-              <div class="card-body">
-                <h5 class="card-title">Job List</h5>
-                <p class="card-text">
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card">
-              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/explore-companies.jpg" alt="Explore Companies">
-              <div class="card-body">
-                <h5 class="card-title">Explore Companies</h5>
-                <p class="card-text">
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
+        <div class="row justify-content-center">
+          {% for resource in site.data.company_choosing %}
+            {% include resource_card.html %}
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -69,19 +40,9 @@ layout: default
       <hr class="mini-divider" />
 
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           {% for resource in site.data.interview_resources %}
-          <div class="col-sm">
-            <div class="card">
-              <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ resource.image }}" alt="{{ resource.name }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ resource.name }}</h5>
-                <p class="card-text">
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
+            {% include resource_card.html %}
           {% endfor %}
         </div>
       </div>
@@ -93,8 +54,8 @@ layout: default
           <hr class="mini-divider" />
 
           <div class="container">
-            <div class="row">
-              <div class="col-sm">
+            <div class="row justify-content-center">
+              <div class="col-3">
                 <div class="card">
                   <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/interview-tips.jpg" alt="Interview Tips">
                   <div class="card-body">

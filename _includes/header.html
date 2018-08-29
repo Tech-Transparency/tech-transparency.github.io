@@ -43,7 +43,12 @@
 <body>
 
   <!-- Nav Bar -->
-  <div class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+  {% if page.navbar_bg %}
+    {% assign navbar_bg = page.navbar_bg %}
+  {% else %}
+    {% assign navbar_bg = "light" %}
+  {% endif %}
+  <div class="navbar fixed-top navbar-expand-md navbar-light bg-{{ navbar_bg }}">
     <a class="navbar-brand" href="{{ site.baseurl }}">
       <img src="{{ site.baseurl }}/assets/img/logo-large.png" width="45" height="45"
         class="d-inline-block align-top" alt="{{ site.name }}">

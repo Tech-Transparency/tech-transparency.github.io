@@ -31,6 +31,11 @@ $dark: black;
   src: url("../fonts/nexa/Nexa Light.otf");
 }
 @font-face {
+  font-family: "Nexa";
+  src: url("../fonts/nexa/Nexa Bold.otf");
+  font-weight: bold;
+}
+@font-face {
   font-family: "SanFrancisco";
   src: url("../fonts/san-francisco/SanFranciscoText-Regular.otf");
 }
@@ -45,6 +50,7 @@ body {
 
 .navbar-brand {
   font-family: Nexa !important;
+  font-weight: bold;
   font-size: 32px;
 }
 
@@ -61,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Nexa;
+  font-family: SanFrancisco;
   font-weight: bold;
   text-transform: uppercase;
 }

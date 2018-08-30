@@ -47,17 +47,9 @@ layout: default
   <hr class="mini-divider" />
 
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-3">
-        <div class="card">
-          <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/interview-tips.jpg" alt="Interview Tips">
-          <div class="card-body">
-            <h5 class="card-title">Interview Tips</h5>
-            <p class="card-text">
-            </p>
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        {% for resource in site.data.interview_tips %} {% include resource_card.html %} {% endfor %}
       </div>
     </div>
   </div>

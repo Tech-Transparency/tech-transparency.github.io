@@ -12,6 +12,8 @@ $primary: #33B5E5;
 $white: white;
 $dark: black;
 
+$navbar_height: 74px;
+
 
 /**
  * DECLARATIONS
@@ -45,7 +47,7 @@ body, html {
 }
 
 body {
-  padding-top: 50px;
+  padding-top: navbar_heightpx;
 }
 
 .navbar {
@@ -132,7 +134,8 @@ hr.mini-divider {
 
 #section-hero {
   // hero unit at top of page
-  margin-top: -50px; // show up underneath the navbar
+  margin-top: -1 * $navbar_height; // show up underneath the navbar
+  // margin-bottom: 50px;
   // min-height: 500px;
   background-image: url("../img/backgrounds/person-at-laptop-frosted.jpg");
   background-size:     cover;
@@ -140,9 +143,13 @@ hr.mini-divider {
    background-position: center center;
 
    > .container {
-     margin-top: 50px; // to undo the shifting of the background from above
+     margin-top: $navbar_height; // to undo the shifting of the background from above
      height: 500px;
    }
+}
+
+#section-after-hero {
+  padding-top: $navbar_height;
 }
 
 .centered {

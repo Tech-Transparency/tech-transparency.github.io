@@ -129,8 +129,12 @@ hr.mini-divider {
 #section-home-background {
   margin-top: -50px; // show up underneath the navbar
   min-height: 400px;
-  background-image: url("../img/backgrounds/hand-notebook-macbook.jpg");
+  background-image: url("../img/backgrounds/person-at-laptop.jpg");
   background-size:     cover;
    background-repeat:   no-repeat;
    background-position: center center;
+
+   .container {
+     margin-top: 50px; // to undo the shifting of the background from above
+   }
 }

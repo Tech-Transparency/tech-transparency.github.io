@@ -39,50 +39,32 @@ local_scripts:
 
 <section class="section" id="section-after-hero">
   <div class="container">
-    <h1 class="text-info">Another Section</h1>
+    <h1 class="text-info centered">About</h1>
 
     <p>
-      You can use Bootstrap here! Version 3 comes installed by default, but you
-      can install something else. Check these out:
+      There is a major misconception that you need to be an engineer to work in Silicon Valley.
+      But according to LinkedIn, there are
+      over 300,000 nontechnical jobs in tech in the United States alone. However, if
+      you don't know someone already in the tech industry, it's very hard to learn
+      about these roles, much less get one of them. Our goal is to make tech more transparent.
     </p>
-
-    <div class="well">
-      It's a well! Make a wish!
-    </div>
-
-    <div class="btn-group">
-      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-        <li><a href="#">Reticulate splines</a></li>
-        <li><a href="#">Deposit slush funds</a></li>
-        <li><a href="#">Synthesize gravity</a></li>
-      </ul>
-    </div>
-
-    <h2>I'm a subheader!</h2>
-
-    <h3>I'm a sub-subheader!</h3>
-  </div>
-</section>
-
-<section class="section section-primary">
-  <div class="container">
-    <h1>Whoa, colored backgrounds!</h1>
-
     <p>
-      We created a custom Bootstrap theme for this example site.
-      You can customize it to your liking.
-      <a href="https://getbootstrap.com/docs/3.3/customize/">Go here</a> and upload the
-      <code>config.json</code> file (in <code>assets/bootstrap</code>) to
-      get started.
+      Tech Transparency aims to provide free resources which help those interested in navigate through the four core stages of getting a job in the tech industry:
     </p>
-  </div>
-</section>
 
-<section class="section section-super-padded">
-  <div class="container">
-    <h1>This section is padded more!</h1>
+    <div class="row justify-column-center">
+      {% for step in site.data.job_hunt_steps %}
+      <div class="col">
+        <a href="{{ step.url}}">
+          <div class="card">
+            <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ step.image }}" alt="{{ step.name }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ step.name }}</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

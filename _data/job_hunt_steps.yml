@@ -1,0 +1,12 @@
+- name: Exploring Roles
+  image: explore.jpg
+  url: resources.html#role
+- name: Exploring Companies
+  image: business.jpg
+  url: resources.html#company
+- name: Getting the Interview
+  image: interview.jpg
+  url: resources.html#interview
+- name: Getting the Offer
+  image: get-the-job.jpg
+  url: resources.html#offer

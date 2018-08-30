@@ -156,3 +156,9 @@ hr.mini-divider {
   margin: auto;
   text-align: center;
 }
+
+.carousel-caption-shadowed {
+  background-color: rgba(0, 0, 0, 0.3);
+  // box-shadow: rgba(0, 0, 0, 0.3) 0 0 20px;
+  border-radius: 3px;
+}

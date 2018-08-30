@@ -2,7 +2,7 @@
   url: /
 - name: Resources
   url: /resources
-- name: Career Journeys
-  url: /journeys
-- name: Contact
-  url: /contact
+# - name: Career Journeys
+#   url: /journeys
+# - name: Contact
+#   url: /contact

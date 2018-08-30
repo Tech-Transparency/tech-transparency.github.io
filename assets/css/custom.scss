@@ -40,6 +40,10 @@ $dark: black;
   src: url("../fonts/san-francisco/SanFranciscoText-Regular.otf");
 }
 
+body, html {
+  height: 100%;
+}
+
 body {
   padding-top: 50px;
 }
@@ -127,15 +131,21 @@ hr.mini-divider {
 
 
 #section-hero {
-  // hero unit at top of page 
+  // hero unit at top of page
   margin-top: -50px; // show up underneath the navbar
-  min-height: 400px;
-  background-image: url("../img/backgrounds/person-at-laptop.jpg");
+  // min-height: 500px;
+  background-image: url("../img/backgrounds/person-at-laptop-frosted.jpg");
   background-size:     cover;
    background-repeat:   no-repeat;
    background-position: center center;
 
-   .container {
+   > .container {
      margin-top: 50px; // to undo the shifting of the background from above
+     height: 500px;
    }
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
 }

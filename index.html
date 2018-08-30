@@ -39,7 +39,7 @@ local_scripts:
 
 <section class="section" id="section-after-hero">
   <div class="container">
-    <h1 class="text-info centered">About</h1>
+    <h2 class="text-info centered">About</h2>
 
     <p>
       There is a major misconception that you need to be an engineer to work in Silicon Valley.
@@ -71,6 +71,9 @@ local_scripts:
 
 <section class="section">
   <div class="container">
+
+    <h2 class="text-info">Success Stories</h2>
+
     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       {% for testimonial in site.data.testimonials %}
@@ -92,7 +95,7 @@ local_scripts:
           <div class="carousel-caption d-none d-md-block carousel-caption-shadowed">
 
             <p>"{{ testimonial.quote }}"</p>
-            <h5>—{{ testimonial.name }}</h5>
+            <h5>— {{ testimonial.name }}</h5>
           </div>
         </div>
       {% endfor %}
@@ -106,5 +109,12 @@ local_scripts:
       <span class="sr-only">Next</span>
     </a>
   </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="text-info">Join our community</h2>
+
   </div>
 </section>

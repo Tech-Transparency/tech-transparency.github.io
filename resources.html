@@ -6,15 +6,12 @@ layout: default
 ---
 
 <section class="section" id="role">
-  <div class="container">
-    <div class="section">
-      <h2>1. Choosing a Role</h2>
-      <hr class="mini-divider" />
+    <h2>1. Choosing a Role</h2>
+    <hr class="mini-divider" />
 
-      <div class="container">
-        <div class="row justify-content-center">
-          {% for resource in site.data.roles %} {% include resource_card.html %} {% endfor %}
-        </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        {% for resource in site.data.roles %} {% include resource_card.html %} {% endfor %}
       </div>
     </div>
 </section>

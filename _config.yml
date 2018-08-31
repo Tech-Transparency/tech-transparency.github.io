@@ -25,7 +25,7 @@ description: |
   A tech nonprofit.
 # Where your website lives. In YAML (the language this file uses), if any of
 # your values include a colon, you must put the value in quotes.
-deployed_url: "http://hathix.com"
+deployed_url: "http://tech-transparency.github.io"
 
 # The image that will be shown when someone shares your website on Facebook
 # Messenger, among other places

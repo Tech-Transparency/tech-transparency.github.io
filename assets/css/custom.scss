@@ -47,7 +47,7 @@ body, html {
 }
 
 body {
-  padding-top: navbar_heightpx;
+  padding-top: $navbar_height;
 }
 
 .navbar {
@@ -145,7 +145,7 @@ hr.mini-divider {
 
    > .container {
      margin-top: $navbar_height; // to undo the shifting of the background from above
-     height: 500px;
+     height: 400px;
    }
 }
 

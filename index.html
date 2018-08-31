@@ -53,11 +53,11 @@ local_scripts:
       Tech Transparency aims to provide free resources which help those interested in navigate through the four core stages of getting a job in the tech industry:
     </p>
 
-    <div class="row justify-column-center">
+    <div class="row resource-row justify-column-center">
       {% for step in site.data.job_hunt_steps %}
       <div class="col">
         <a href="{{ step.url}}">
-          <div class="card">
+          <div class="card resource-card">
             <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ step.image }}" alt="{{ step.name }}">
             <div class="card-body">
               <h5 class="card-title">{{ step.name }}</h5>

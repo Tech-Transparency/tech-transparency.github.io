@@ -163,3 +163,33 @@ hr.mini-divider {
   // box-shadow: rgba(0, 0, 0, 0.3) 0 0 20px;
   border-radius: 3px;
 }
+//
+// @media only screen and (min-width : 481px) {
+//    .resource-row.row {
+// 	 display: flex;
+// 	 flex-wrap: wrap;
+//    }
+//    .resource-row.row > [class*='col-'] {
+// 	 display: flex;
+// 	 flex-direction: column;
+//    }
+//   .resource-row.row:after,
+//   .resource-row.row:before {
+// 	 display: flex;
+//   }
+// }
+
+.resource-card {
+  margin-bottom: 30px;
+
+  // flex: 1 0 auto;
+  // flex-direction: column;
+  //
+  // .card-text {
+  //   flex-grow: 1;
+  // }
+  // .card-img-top {
+  //   height: auto;
+  //   width: 100%;
+  // }
+}

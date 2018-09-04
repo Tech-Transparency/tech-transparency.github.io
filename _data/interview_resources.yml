@@ -1,6 +1,6 @@
 - name: Resume
   image: resume.jpg
-  url: "#"
+  url: assets/pdf/tt-resume-tips.pdf
 - name: Cover Letter
   image: cover-letter.jpg
 - name: Networking

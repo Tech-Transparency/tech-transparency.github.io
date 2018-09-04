@@ -7,6 +7,8 @@ layout: article
 permalink: /joblist
 ---
 
+<!-- ![Job list]({{ site.baseurl }}/assets/img/resources/job-list.jpg) -->
+
 ## Best Business-Side Tech Jobs
 
 ### Google

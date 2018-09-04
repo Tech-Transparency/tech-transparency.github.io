@@ -198,12 +198,15 @@ hr.mini-divider {
   padding-top: 30px;
 
   img {
-    width: 100%;
+    width: 67%;
+    display: block;
+    text-align: center;
+    margin: auto;
   }
-
-  h2 {
-    color: $primary;
-  }
+  //
+  // h2 {
+  //   color: $primary;
+  // }
 }
 
 .card-stacked {

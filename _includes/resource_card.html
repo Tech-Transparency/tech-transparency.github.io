@@ -11,8 +11,16 @@
       <h5 class="card-title">{{ resource.name }}</h5>
       <p class="card-text">
       </p>
+      {% assign url = "" %}
       {% if resource.url %}
-        <a href="{{ site.baseurl }}/{{ resource.url }}" class="btn btn-primary btn-block" target="_blank">Read More</a>
+        {% if resource.external %}
+          {% assign url = resource.url %}
+        {% else %}
+          {% capture url %}
+            {{ site.baseurl }}/{{ resource.url }}
+          {% endcapture %}
+        {% endif %}
+        <a href="{{ url }}" class="btn btn-primary btn-block" target="_blank">Read More</a>
       {% else %}
         <a href="" class="btn btn-secondary btn-block disabled" disabled>Coming Soon</a>
       {% endif %}

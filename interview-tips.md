@@ -56,7 +56,7 @@ There are two books everyone needs to read to truly excel in interviews:
 
 **The first book is _Case in Point_ by Marc Cosentino**. Case in Point is to consultants what the Bible is to Christians. I know what you are thinking: &quot;But I don&#39;t want to be a consultant...&quot; Regardless of what company/industry you are interviewing for, being able to think like a consultant will be a valuable life long skill.
 
-I always re-skim Case in Point before interviews as it is extremely helpful in allowing me to breakdown problems in a clear and organized way. Something a lot of people forget is it&#39;s not just what you say that matters, but also how you say it. If you didn&#39;t study business in college, I would especially recommend reading this book as it will help get you up to speed with some important business concepts.
+I always re-skim Case in Point before interviews as it is extremely helpful in allowing me to break down problems in a clear and organized way. Something a lot of people forget is it&#39;s not just what you say that matters, but also how you say it. If you didn&#39;t study business in college, I would especially recommend reading this book as it will help get you up to speed with some important business concepts.
 
 **The second book is _[Swipe to Unlock](https://www.amazon.com/dp/B0756MTX6K/)_.** I actually co-authored it along with Neel Mehta and Adi Agashe, who are **Product Managers at Google and Microsoft respectively.**
 

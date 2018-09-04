@@ -1,5 +1,6 @@
 - name: Resume
   image: resume.jpg
+  url: "#"
 - name: Cover Letter
   image: cover-letter.jpg
 - name: Networking

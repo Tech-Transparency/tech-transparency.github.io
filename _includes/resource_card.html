@@ -11,7 +11,11 @@
       <h5 class="card-title">{{ resource.name }}</h5>
       <p class="card-text">
       </p>
-      <a href="#" class="btn btn-primary btn-block">Read More</a>
+      {% if resource.url %}
+        <a href="{{ site.baseurl }}/{{ resource.url }}" class="btn btn-primary btn-block">Read More</a>
+      {% else %}
+        <a href="" class="btn btn-secondary btn-block disabled" disabled>Coming Soon</a>
+      {% endif %}
     </div>
   </div>
 </div>

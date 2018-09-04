@@ -1,4 +1,5 @@
 - name: Job List
   image: job-list.jpg
+  url: "#"
 - name: Explore Companies
   image: explore-companies.jpg

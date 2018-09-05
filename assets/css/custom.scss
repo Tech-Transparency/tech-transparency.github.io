@@ -58,6 +58,12 @@ body {
   font-family: Nexa !important;
   font-weight: bold;
   font-size: 32px;
+  vertical-align: middle;
+
+  @media (max-width: 575.98px) {
+    // extra-small screens - like phone portrait mode
+    font-size: 20px;
+  }
 }
 
 .centered {

@@ -15,6 +15,8 @@ costs!
 * Font Awesome
 * jQuery
 
+This website was built from [hathix/static-site-template](https://github.com/hathix/static-site-template).
+
 ## Running
 
 Once you've cloned the repo, run the following in your terminal. You'll need to have Ruby installed (it's pre-installed on macOS and most Linux distributions.)

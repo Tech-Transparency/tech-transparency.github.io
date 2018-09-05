@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
   var waypoint = new Waypoint({
     element: $('#section-after-hero'),
     handler: function(direction) {
@@ -8,8 +8,7 @@ $(function(){
         // scrolling down past the hero, turn the navbar white
         navbar.removeClass("bg-transparent")
           .addClass("bg-light");
-      }
-      else if (direction === "up") {
+      } else if (direction === "up") {
         // scrolling up to the hero, turn navbar transparent
         navbar.removeClass("bg-light")
           .addClass("bg-transparent");
@@ -18,6 +17,6 @@ $(function(){
   });
 
   // set up smooth scrolling
-  	var scroll = new SmoothScroll('a.smooth-scroll');
+  var scroll = new SmoothScroll('a.smooth-scroll');
 
 });

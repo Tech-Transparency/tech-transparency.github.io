@@ -55,7 +55,7 @@ local_scripts:
 
     <div class="row resource-row justify-column-center">
       {% for step in site.data.job_hunt_steps %}
-      <div class="col">
+      <div class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch">
         <a href="{{ step.url}}">
           <div class="card resource-card">
             <img class="card-img-top" src="{{site.baseurl}}/assets/img/resources/{{ step.image }}" alt="{{ step.name }}">
@@ -94,7 +94,7 @@ local_scripts:
         {% endif %}
         <div class="carousel-item {{ active_class }}">
           <img class="d-block w-100" src="{{ site.baseurl }}/assets/img/testimonials/{{ testimonial.image }}" alt="{{ testimonial.name }}">
-          <div class="carousel-caption d-none d-md-block carousel-caption-shadowed">
+          <div class="carousel-caption d-none d-sm-block carousel-caption-shadowed">
 
             <p>"{{ testimonial.quote }}"</p>
             <h5>— {{ testimonial.name }}</h5>

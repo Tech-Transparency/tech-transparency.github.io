@@ -13,7 +13,7 @@ permalink: /resources
 
     <div class="container">
       <div class="row resource-row justify-content-center">
-        {% for resource in site.data.roles %} {% include resource_card.html %} {% endfor %}
+        {% for resource in site.data.resources.choosing_role %} {% include resource_card.html %} {% endfor %}
       </div>
     </div>
 </section>
@@ -24,7 +24,7 @@ permalink: /resources
 
   <div class="container">
     <div class="row resource-row justify-content-center">
-      {% for resource in site.data.company_choosing %} {% include resource_card.html %} {% endfor %}
+      {% for resource in site.data.resources.choosing_company %} {% include resource_card.html %} {% endfor %}
     </div>
   </div>
 </section>
@@ -35,7 +35,7 @@ permalink: /resources
 
   <div class="container">
     <div class="row resource-row justify-content-center">
-      {% for resource in site.data.interview_resources %} {% include resource_card.html %} {% endfor %}
+      {% for resource in site.data.resources.getting_interview %} {% include resource_card.html %} {% endfor %}
     </div>
   </div>
 </section>
@@ -48,7 +48,7 @@ permalink: /resources
   <div class="container">
     <div class="container">
       <div class="row resource-row justify-content-center">
-        {% for resource in site.data.interview_tips %} {% include resource_card.html %} {% endfor %}
+        {% for resource in site.data.resources.getting_offer %} {% include resource_card.html %} {% endfor %}
       </div>
     </div>
   </div>

@@ -1,0 +1,32 @@
+choosing_role:
+  - name: Product Management
+    image: product-management.jpg
+  - name: Marketing
+    image: marketing.jpg
+  - name: Sales
+    image: sales.jpg
+  - name: Business Development
+    image: business-development.jpg
+
+choosing_company:
+  - name: Non-Technical Job List
+    image: job-list.jpg
+    url: joblist
+  - name: Explore Companies
+    image: explore-companies.jpg
+
+getting_interview:
+  - name: Resume Guide
+    image: resume.jpg
+    url: resume-guide
+  - name: Cover Letter Guide
+    image: cover-letter.jpg
+  - name: Networking Guide
+    image: networking.jpg
+  - name: LinkedIn Guide
+    image: linkedin.jpg
+
+getting_offer:
+  - name: Interview Tips
+    image: interview-tips.jpg
+    url: interview-tips

@@ -5,34 +5,48 @@ permalink: joblist
 ---
 
 
-<!-- TODO factor out the swiping background and frosted overlay from the_idea so that these aren't dependent on each other -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col"></div>
-      <div class="col-md-8">
-        <h1>Best Business-Side Jobs at Tech Companies</h1>
-
-
-        <p>
-          Please note that for some of these jobs, the application hasn’t opened yet. We tried to include the best link possible of where to go about finding the job listing once it is posted, like the link from last year. We hope this helps!
-          <!-- "I" for Parth-only -->
-        </p>
-
-        <p>
-          Below each job listing, one of our cofounders will note his experiences with and opinions of the job.
-        </p>
-
-        <!-- <p><strong>Interested in a non-developer job at a tech company? <a href="https://www.amazon.com/dp/B0756MTX6K/">Swipe to Unlock</a> was co-authored by a recipient of a fulltime Google APMM offer, Google RPM offer, and Microsoft PMM offer. <a href="https://www.amazon.com/dp/B0756MTX6K/">The book</a> offers valuable tech insights and concept overviews that will be extremely relevant for the Google APMM interview.</strong></p>
-
-          <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="1280" height="720" src="https://www.youtube.com/embed/KqCcDS63hZE" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <br/> -->
-
-        <hr />
-
+<div class="container main-container">
+  <div class="row">
+    <div class="col-md-4 d-none d-sm-block">
+      <div id="job-scrollspy" class="list-group">
         {% for company in site.data.jobs %}
+        <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
+              {{ company.company }}
+            </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-md-8 spied" data-spy="scroll" data-target="#job-scrollspy" data-offset="20">
+      <h1>Best Business-Side Jobs at Tech Companies</h1>
+
+      <p>
+        Here, we list the best non-technical roles available at tech companies. Below each job listing, one of our cofounders -- who has recruited for several of these jobs -- will note his experiences with and opinions of the job. We hope this
+        helps!
+      </p>
+
+      <p>
+        <em>
+            Note: the application for some of these jobs is only open during certain times of the year.
+          </em>
+      </p>
+
+      <div class="d-block d-sm-none">
+        <div class="list-group">
+          {% for company in site.data.jobs %}
+          <a class="list-group-item list-group-item-action smooth-scroll" href="#{{ company.slug }}">
+                {{ company.company }}
+              </a>
+          {% endfor %}
+        </div>
+      </div>
+
+
+      <hr />
+
+
+      {% for company in site.data.jobs %}
+      <section class="section" id="{{ company.slug }}">
         <h2 class="text-info">{{ company.company }}</h2>
 
 
@@ -54,8 +68,8 @@ permalink: joblist
               {% endif %}
             </p>
             <a href="{{ job.url }}" target="_blank" class="btn btn-primary">
-                        Learn more
-                    </a>
+                          Learn more &amp; Apply
+                      </a>
           </div>
 
 
@@ -63,9 +77,9 @@ permalink: joblist
 
         {% endfor %}
 
+      </section>
+      {% endfor %}
 
-        {% endfor %}
-      </div>
-      <div class="col"></div>
     </div>
-</section>
+  </div>
+</div>

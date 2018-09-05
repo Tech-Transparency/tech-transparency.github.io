@@ -48,6 +48,7 @@ body, html {
 
 body {
   padding-top: $navbar_height;
+  position: relative;
 }
 
 .navbar {
@@ -217,4 +218,15 @@ hr.mini-divider {
 
 .card-stacked {
   margin-bottom: 1rem;
+}
+
+.spied {
+  position: relative;
+  overflow-y: scroll;
+  height: 800px;
+}
+
+.main-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

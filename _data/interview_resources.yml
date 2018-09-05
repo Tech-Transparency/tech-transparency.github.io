@@ -1,9 +1,9 @@
-- name: Resume
+- name: Resume Guide
   image: resume.jpg
   url: assets/pdf/tt-resume-tips.pdf
-- name: Cover Letter
+- name: Cover Letter Guide
   image: cover-letter.jpg
-- name: Networking
+- name: Networking Guide
   image: networking.jpg
-- name: LinkedIn
+- name: LinkedIn Guide
   image: linkedin.jpg

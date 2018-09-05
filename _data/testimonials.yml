@@ -1,9 +1,9 @@
-- name: Seth R.
-  quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  image: red-shirt-cafe.jpg
-- name: Hector O.
-  quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  image: buff-laptop.jpg
-- name: Priscilla E.
-  quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  image: milk-counter.jpg
+- name: Stanford '21 Student
+  quote: I can't believe that someone not only took the time to create these resources but made them completely free. As a first-generation college student trying to navigate a career in tech, this website has been a lifesaver.
+  image: youth-notebook.jpg
+- name: UMich '20 Student
+  quote: Tech Transparency's resources helped me land interviews at Microsoft, Apple, and Visa!
+  image: yellow-shirt.jpg
+- name: Cornell Professor
+  quote: I recommend Tech Transparency to all my students who are interested in pursuing careers in the tech industry.
+  image: woman-glass-office.jpg

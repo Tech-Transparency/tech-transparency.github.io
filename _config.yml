@@ -23,10 +23,10 @@ name: Tech Transparency
 # A brief description, e.g. for Google search results
 description: |
   Tech Transparency seeks to make jobs in tech accessible to people from all backgrounds and all walks of life.
-  
+
 # Where your website lives. In YAML (the language this file uses), if any of
 # your values include a colon, you must put the value in quotes.
-deployed_url: "http://tech-transparency.github.io"
+deployed_url: "http://techtransparency.org"
 
 # The image that will be shown when someone shares your website on Facebook
 # Messenger, among other places

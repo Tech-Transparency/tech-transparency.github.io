@@ -22,7 +22,8 @@
 name: Tech Transparency
 # A brief description, e.g. for Google search results
 description: |
-  A tech nonprofit.
+  Tech Transparency seeks to make jobs in tech accessible to people from all backgrounds and all walks of life.
+  
 # Where your website lives. In YAML (the language this file uses), if any of
 # your values include a colon, you must put the value in quotes.
 deployed_url: "http://tech-transparency.github.io"

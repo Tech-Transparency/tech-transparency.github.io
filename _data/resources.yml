@@ -10,7 +10,7 @@ choosing_role:
 
 choosing_company:
   - name: Non-Technical Job List
-    image: job-list.jpg
+    image: briefcase.jpg
     url: joblist
   - name: Explore Companies
     image: explore-companies.jpg
@@ -24,7 +24,7 @@ getting_interview:
   - name: Networking Guide
     image: networking.jpg
   - name: LinkedIn Guide
-    image: linkedin.jpg
+    image: iphone-apps.jpg
 
 getting_offer:
   - name: Interview Tips

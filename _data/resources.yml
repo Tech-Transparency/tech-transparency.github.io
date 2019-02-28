@@ -7,6 +7,7 @@ choosing_role:
     url: marketing
   - name: Sales
     image: sales.jpg
+    url: sales
   - name: Business Development
     image: business-development.jpg
 

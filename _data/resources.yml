@@ -4,6 +4,7 @@ choosing_role:
     url: product-management
   - name: Marketing
     image: marketing.jpg
+    url: marketing
   - name: Sales
     image: sales.jpg
   - name: Business Development

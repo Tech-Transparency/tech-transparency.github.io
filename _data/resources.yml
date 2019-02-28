@@ -1,5 +1,5 @@
 choosing_role:
-  - name: Product Management
+  - name: Product
     image: product-management.jpg
     url: product-management
   - name: Marketing
@@ -8,16 +8,17 @@ choosing_role:
   - name: Sales
     image: sales.jpg
     url: sales
-  - name: Business Development
+  - name: Biz Dev
     image: business-development.jpg
     url: business-development
 
 choosing_company:
-  - name: Non-Technical Job List
+  - name: Non-Technical Jobs
     image: briefcase.jpg
     url: joblist
   - name: Explore Companies
     image: explore-companies.jpg
+    url: docs/explore.pdf
 
 getting_interview:
   - name: Resume Guide
@@ -25,10 +26,13 @@ getting_interview:
     url: resume-guide
   - name: Cover Letter Guide
     image: cover-letter.jpg
-  - name: Networking Guide
+    url: docs/recruiting.pdf
+  - name: Recruiting Secrets
     image: networking.jpg
+    url: docs/recruiting.pdf
   - name: LinkedIn Guide
     image: iphone-apps.jpg
+    url: docs/linkedin.pdf
 
 getting_offer:
   - name: Interview Tips

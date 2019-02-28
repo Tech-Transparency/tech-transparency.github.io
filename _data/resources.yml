@@ -1,6 +1,7 @@
 choosing_role:
   - name: Product Management
     image: product-management.jpg
+    url: product-management
   - name: Marketing
     image: marketing.jpg
   - name: Sales

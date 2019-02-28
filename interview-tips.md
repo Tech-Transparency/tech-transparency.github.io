@@ -12,11 +12,11 @@ _[Parth Detroja](https://www.linkedin.com/in/parthdetroja/) is a Product Manager
 
 Every interview ends the same way. Your interviewer fills out an evaluation form with the last question being a multiple choice checkbox.
 
-![Hiring Recommendation Form](https://media.licdn.com/dms/image/C5612AQHte63lKkTxQQ/article-inline_image-shrink_1500_2232/0?e=1541635200&v=beta&t=1SUUjYXgA98mBAt5UoO3lha8DbJjSv28_7-LRU-jFdc)
+![Hiring Recommendation Form](img/hiring.jpg)
 
 Before this ultimate question, there are a myriad of other evaluation points that interviewer is supposed to fill out to assess how strong you were on various different technical and interpersonal skill dimensions.
 
-![Competency Profile](https://media.licdn.com/dms/image/C5612AQFRSNg-gKUU6A/article-inline_image-shrink_1500_2232/0?e=1541635200&v=beta&t=obhTmJmXuA2u5Fq3K8i7hO-_AZ6ABJGr85IZg1uNzOk)
+![Competency Profile](img/competency.jpg)
 
 **However, in reality, the interviewer actually answers that last question first.** As humans, we have a tendency to judge quickly. By the end of the interview, the interviewer will know whether they want you working at their company or not. If they aren't sure, it's probably going to be a "no."
 

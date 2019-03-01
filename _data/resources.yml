@@ -26,7 +26,7 @@ getting_interview:
     url: resume-guide
   - name: Cover Letter Guide
     image: cover-letter.jpg
-    url: docs/recruiting.pdf
+    url: docs/cover.pdf
   - name: Recruiting Secrets
     image: networking.jpg
     url: docs/recruiting.pdf

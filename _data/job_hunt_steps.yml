@@ -1,10 +1,10 @@
 - name: Exploring Roles
   image: explore.jpg
   url: resources.html#role
-- name: Exploring Companies
+- name: Finding Companies
   image: business.jpg
   url: resources.html#company
-- name: Getting the Interview
+- name: Getting Interviews
   image: interview.jpg
   url: resources.html#interview
 - name: Getting the Offer
